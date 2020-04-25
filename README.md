@@ -2,7 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
-This project was created by following instructions from an online video course from LinkedIn Learning. Here is a link to the course should you wish to take it as well: `https://www.linkedin.com/learning/learning-angular`.
+This project was created by following instructions from an online video course from LinkedIn Learning. Here is a link to the course should you wish to take it as well: [Click Me](https://www.linkedin.com/learning/learning-angular).
+
+The site is very simple and straight forward. Users can click on the search field and start typing away. Results matching what the user has input will populate underneath. Clicking on any of these will then display info on the given artist. Currently the available artists are hard coded into the site as there is no back end for this project. However, there is code in place that would allow an external API to be used in `app.component.ts` on lines 88-93, though this would require some code refactoring in order to make sure the site still works. 
+
+This project was made in order to better understand and grasp Angular and Typescript.
 
 ## Development server
 
